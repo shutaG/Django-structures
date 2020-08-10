@@ -1,0 +1,12 @@
+# Django工程化目录
+python版本：3.8
+
+setting对开发环境和正式环境进行了区分，并增加了重要目录的环境变量
+并将所有APP放到了apps中
+## 创建app
+在apps目录中使用以下命令：
+```cmd
+python ../../manage.py starapp example
+```
+## pycharm中使用
+为了获得更好的提示效果，可以右键将apps目录加入到source root 中，这样在使用import时不会飘红
